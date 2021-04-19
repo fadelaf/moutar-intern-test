@@ -1,0 +1,323 @@
+
+/* -------Style---------- */
+
+/* Header */
+
+@media screen and (min-width: 820px) and (max-width: 920px) {
+    @viewport { width: 820px; }   }
+
+div h1.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin:  12px 100px ;
+    display: inline-block;
+    
+}
+
+div.head-bar {
+
+    width: 1500px;
+    margin: auto;
+    border-bottom: 0.5px solid rgb(209, 209, 209);
+
+
+}
+
+
+div.head-bar ul{
+    margin-top: 15px;
+    margin-left: 900px;
+    width: auto;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+   
+    
+
+}
+
+div.head-bar li {
+
+    display: inline;
+    padding-right: 10px;
+    color: black;
+    position: relative;
+    
+    
+}
+
+div.head-bar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.cover-image {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+div.cover-image img{
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+/* Body */
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Project */
+
+div.project {
+    width: 1200px;
+    margin: auto;
+}
+
+.project h2{
+
+    font-size: 25px;
+
+}
+
+img.img-project {
+
+    width: 300px;
+    height: 180px;
+
+}
+
+div.project-line {
+
+    width: 1200px;
+    height: 500px;
+
+
+
+}
+
+div.project-line div {
+    margin-left: 8px;
+
+    display: inline-block;
+} 
+.line1 {
+
+    width: 280px;
+    height: 180px;
+    cursor: pointer;
+
+    
+
+}
+
+
+.line2 {
+
+width: 280px;
+height: 180px;
+margin-top: 10px;
+cursor: pointer;
+
+
+}
+
+.project-line h3 {
+
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    position: absolute;
+
+}
+
+#img-project {
+
+    width: 280px;
+    height: 180px;
+
+}
+
+/* About */
+
+div.about {
+    width: 1200px;
+    margin: auto;
+}
+
+.about h2 {
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.paragraph {
+    width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+div.people {
+
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+    
+}
+
+div.contact-people {
+
+    height: 400px;
+    width: 275px;
+  
+    margin-top: 10px;
+    margin-left: 12px;
+    display: inline-block;
+
+}
+
+#pict-people {
+
+    height: 200px;;
+    width: 275px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+
+}
+
+div.contact-people h2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+
+div.contact-people h3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size:  14px;
+    margin-bottom: 10px;
+}
+
+div.contact-people button {
+
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 114px;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+
+/* Contact Form*/
+
+div.contact {
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+
+}
+
+div.contact h2{
+
+    font-size: 25px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.form-contact {
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+form input {
+
+    width: 1200px;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    border: 1px solid rgb(206, 206, 206);
+
+}
+
+div.button-contact {
+    
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+div.button-contact button {
+
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Last Picture before footer /Location picture */
+
+div.location {
+
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 40px;
+
+
+}
+
+div.location img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+
+div.footer {
+
+    height: 45px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    text-align: center;
+
+
+
+}
+
+div.footer h3 {
+    
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+
+
+}
